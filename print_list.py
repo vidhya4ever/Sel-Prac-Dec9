@@ -1,3 +1,5 @@
-listval = list(input("Enter the list value  :"))
+def listprint(listval):
+    for item in listval:
+        print(item)
 
-print(listval)
+listprint([1,2,4])
