@@ -1,8 +1,9 @@
 
-def evenodd(n):
-    if n % 2 == 0:
-        print(f"{n} is even")
-    else:
-        print(f"{n} is odd")
+def evenodd(start,end):
+    for n in range(start,end):
+        if n % 2 == 0:
+            print(f"{n} is even")
+        else:
+             print(f"{n} is odd")
 
-evenodd(5)
+evenodd(10,20)
