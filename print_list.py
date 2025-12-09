@@ -1,2 +1,3 @@
-listval = [1,2,3,4,5]
+listval = list(input("Enter the list value  :"))
+
 print(listval)
